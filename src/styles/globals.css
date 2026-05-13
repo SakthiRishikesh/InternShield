@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: Georgia, "Times New Roman", serif;
+  --font-sans: Arial, Helvetica, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  @apply bg-black text-white selection:bg-cyan-500/30;
+}
+
+h1, h2, h3, h4, .font-serif {
+  font-family: var(--font-serif);
+}
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 15s ease infinite;
+}
+
+/* Glassmorphism utility */
+.glass {
+  @apply bg-white/5 backdrop-blur-xl border border-white/10;
+}
+
+.glass-dark {
+  @apply bg-black/60 backdrop-blur-md border border-white/10;
+}

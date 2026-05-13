@@ -1,0 +1,8 @@
+
+> internshield@1.0.0 start
+> next start -p 3011
+
+▲ Next.js 16.2.1
+- Local:         http://localhost:3011
+- Network:       http://192.168.128.1:3011
+✓ Ready in 176ms

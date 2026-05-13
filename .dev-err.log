@@ -1,0 +1,9 @@
+⚠ Port 3000 is in use by process 7552, using available port 3001 instead.
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3000
+- PID:          7552
+- Dir:          D:\Internshield
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 7552 /F to stop it.
