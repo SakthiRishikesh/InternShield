@@ -28,3 +28,12 @@ yarn-error.log*
 # Others
 .DS_Store
 *.pem
+.codex-start-3011-err.log
+.codex-start-3011-out.log
+.codex-start-err.log
+.codex-start-out.log
+.cookies.txt
+.dev-3002-err.log
+.dev-3002-out.log
+.dev-err.log
+.dev-out.log
